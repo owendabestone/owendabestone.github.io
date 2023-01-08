@@ -1,10 +1,12 @@
+
+
 const Navbar = () => {
     const BORDER_STYLE = {'border-image': 'linear-gradient(#d46d2c, #50eb7c) 2',
     'border-left':  '1px solid ',
     'margin-right':'2em',
     'padding-left':'2em'}
     return (
-        <div >
+        <div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"></link>
@@ -32,6 +34,9 @@ const Navbar = () => {
                   <a class="dropdown-item" href="/">Website Projects</a>
                   <a class="dropdown-item" href="/">Others</a>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/courses" style = {BORDER_STYLE}>Courses</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/" style = {BORDER_STYLE}>Current Status</a>
