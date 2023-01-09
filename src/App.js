@@ -1,4 +1,5 @@
 import './App.css';
+import { AppProvider } from './context/AppContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from "react-helmet";
 import Home from './components/Home';
@@ -11,9 +12,7 @@ function App() {
 
 
   return (
-
-
-    <div>
+    <AppProvider>
 
       <Helmet>
         <title>Owen's Resume</title>
@@ -23,11 +22,11 @@ function App() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
       </Helmet>
         <Routes>
-          <Route exact path="/home/" element={<Home/>}/>
-          <Route exact path="/courses/" element={<Courses/>}></Route>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/courses" element={<Courses/>}></Route>
         </Routes>
 
-    </div>
+    </AppProvider>
   );
 }
 

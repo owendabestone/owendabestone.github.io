@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ###   
 try "start": "WATCHPACK_POLLING=true react-scripts start " if there is no auto refresh aft code being updated.
+
+
+###
+Github integration please follow https://github.com/rafgraph/spa-github-pages.

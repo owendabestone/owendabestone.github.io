@@ -2,13 +2,13 @@ import PictureHome from './PictureMain';
 
 const HomePage = () => {
     return (
-        <div className='container' style={{ 'margin-left': '1em', 'writing-mode': 'horizontal-tb' }}>
+        <div className='container' style={{ 'marginLeft': '1em', 'writing-mode': 'horizontal-tb' }}>
             <div className='col-sm' style={{ 'block-size': '1em', 'writing-mode': 'horizontal-tb' }}>
                 <PictureHome />
             </div>
-            <div className='col-sm' style={{ 'margin-left': '10em',
-             'position': 'absolute', 'padding-left': '4em' ,
-             'width': '350px'}}>
+            <div className='col-sm' style={{ 'marginLeft': '10em',
+             'position': 'absolute', 'paddingLeft': '4em' ,
+             'width': '40%'}}>
                 <h2 className='mt-3' style={{}}> <b>Owen Zhang</b></h2>
                 I have recently graduated M.S. <a href = 'https://cse.ucsd.edu/graduate/degree-programs/ms-program/ms-2015-comp-standard'>Computer Science </a>
                  from UC San Diego with a focus on Artificial Intelligence.

@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes glowing {
+  0% {
+    background-color: #050505;
+    box-shadow: 0 0 5px #2b291c;
+  }
+  50% {
+    background-color: #000000;
+    box-shadow: 0 0 20px #6e6e67;
+  }
+  100% {
+    background-color: #0a0a0a;
+    box-shadow: 0 0 5px #d8d480;
+  }
+  50% {
+    background-color: #000000;
+    box-shadow: 0 0 20px #6e6e67;
+  }
+  0% {
+    background-color: #050505;
+    box-shadow: 0 0 5px #2b291c;
+  }
+}
+
+
+#glow {
+  animation: glowing 2000ms infinite;
+}
+#courses {
+  color: #573b2b
+}
