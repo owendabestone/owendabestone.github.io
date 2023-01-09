@@ -11,7 +11,7 @@ const Navbar = () => {
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"></link>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style={{'margin-bottom':0}}>
-          <a class="navbar-brand" href="/">Owen Zhang</a>
+          <a class="navbar-brand" href="/home">Owen Zhang</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,27 +19,27 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/" 
+                <a class="nav-link" href="/home" 
                 style = {BORDER_STYLE}>Home </a>
               </li>
   
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" 
+                <a class="nav-link dropdown-toggle" href="/home" id="navbarDropdown" 
                 role="button" data-toggle="dropdown" data-bs-toggle="dropdown" 
                 aria-haspopup="true" aria-expanded="false" style = {BORDER_STYLE}>
                   Projects
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="/">ML Projects</a>
-                  <a class="dropdown-item" href="/">Website Projects</a>
-                  <a class="dropdown-item" href="/">Others</a>
+                  <a class="dropdown-item" href="/home">ML Projects</a>
+                  <a class="dropdown-item" href="/home">Website Projects</a>
+                  <a class="dropdown-item" href="/home">Others</a>
                 </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/courses" style = {BORDER_STYLE}>Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/" style = {BORDER_STYLE}>Current Status</a>
+                <a class="nav-link" href="/home" style = {BORDER_STYLE}>Current Status</a>
               </li>
             </ul>
           </div>
