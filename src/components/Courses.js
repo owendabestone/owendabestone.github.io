@@ -7,13 +7,13 @@ const Courses = () => {
         'MachineLearning': {
             'Probabilistic Learning': ['MLE', "Hidden Markov Model", 'Naive Bayes'],
             'Statistical Natural Langugage Processing': ['LSTM', 'BOW'],
-            'Seminar on Special Topic: Genetic Algorithm': ['Genetic Algorithm', "Game Theory"],
+            'Seminar on Special Topic: Genetic Algorithm': ['Bio-inspired Algorithms', "Game Theory"],
             'Computational Linguistics': ['Clojure'],
             'Convex Optimization Algorithms': ['CVXPY'],
             'Machine Learning For Robotics': ['Robotics', 'Model-free Reinforcement Learning'],
             'Planning & Learning in Robotics': ['Search Algorithms', 'Model-based Reinforcement Learning'],
             'Deep Generative Models': ['Deep Learning', 'Pytorch', 'GAN'],
-            "Recommender System & Web Mining": ['Latent Factor Model']
+            "Recommender System & Web Mining": ['Collaborative Filtering','Latent Factor Model']
         },
         'Physics': {
             'Relativity & Quantum Physics': ['Quantum Mechanics'],
