@@ -53,6 +53,7 @@ const Courses = () => {
             <Navbar></Navbar>
             <BusCard></BusCard>
             <h2 style={{ 'marginLeft': '7%' }}>Courses</h2>
+            <br></br>
             {cards}
             {/* <Coursecard name ='MachineLearning' ></Coursecard>
             <Coursecard name ='DataScience' ></Coursecard>

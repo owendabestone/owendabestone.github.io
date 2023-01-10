@@ -56,7 +56,7 @@ const CourseCard = (props) => {
 
             <div className="p-4 mb-4 text-white " style={{ 'borderRadius': 5, 
             'height': '50px', 
-            'marginLeft': '2%', 
+            'marginLeft': '3.1%', 
             'marginRight': '3%',
             'backgroundColor':'#24261a'
             }}>
