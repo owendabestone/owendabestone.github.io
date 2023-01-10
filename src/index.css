@@ -73,7 +73,7 @@ code {
 }
 .timeline {
   background: var(--primary-color);
-  margin: 35% auto auto 20%;
+  margin: 35em auto auto 20%;
   padding: 20px;
 }
 
