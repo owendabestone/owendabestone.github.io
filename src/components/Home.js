@@ -1,4 +1,4 @@
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import BusCard from './BusCard';
 import HomePage from './HomePage';
 

@@ -41,6 +41,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/currentstatus" style = {BORDER_STYLE}>Current Status</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/hobbies" style = {BORDER_STYLE}>Hobbies</a>
+              </li>
             </ul>
           </div>
         </nav>

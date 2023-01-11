@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import BusCard from "./BusCard";
 const CurrentStatus = () => {
     return (
@@ -6,7 +6,7 @@ const CurrentStatus = () => {
             <Navbar></Navbar>
             <BusCard></BusCard>
             <h2 style={{ 'marginLeft': '7%' }}>Current Status </h2>
-            <div class="card m-5" style={{width: '75rem'}}>
+            <div class="card m-5" style={{width: '70%'}}>
                 <div class="card-body">
                     <ul>
                         <li>Learning AWS and getting the <i>AWS Certified Cloud Practitioner</i> certificate.</li>

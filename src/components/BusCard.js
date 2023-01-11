@@ -17,9 +17,12 @@ const BusCard = (props) => {
                     <br></br>
                     <span className="text-muted">Current Address: 3961 N Tamarack Dr, Boise, Idaho, 83703</span>
                     <br></br>
-                    <span className="text-muted">E-mail: chang.owen.zhang@gmail.com</span>
+                    <span className="text-muted">Email: chang.owen.zhang@gmail.com</span>
                     <br></br>
-                    <span className="text-muted">School E-mail: chz230@ucsd.edu</span>
+                    <span className="text-muted">School email: chz230@ucsd.edu</span>
+                    <br></br>
+                    <span><a href = 'https://github.com/owendabestone/'><i class="fa fa-github text-muted" style={{fontSize:'30px'}}></i></a></span>&ensp;
+                    <span><a href = 'https://www.linkedin.com/in/chang-zhang-47513a165/'><i class="fa fa-linkedin-square text-muted" style={{fontSize:'30px'}}></i></a></span>
                 </div>
             </div>
             <div className="navbar navbar-dark bg-dark" style={{ 'borderRadius': 0 }}>

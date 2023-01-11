@@ -1,4 +1,4 @@
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import BusCard from './BusCard';
 import Coursecard from './Coursecard'
 const Courses = () => {
@@ -58,10 +58,10 @@ const Courses = () => {
             
             const course_name = course_list[Object.keys(course_list)[course]];
             const skill_list = courses_in_area[course_name];
-            console.log(skill_list)
             skills.push(...skill_list);
         }
     }
+    skills.push('HTML','CSS','React','Git')
 
     let skills_render = "<div class='container'><div class='row mt-3'>"
     for (var j = 0; j < skills.length; j++) {
