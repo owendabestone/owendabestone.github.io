@@ -39,7 +39,7 @@ const Navbar = () => {
                 <a className="nav-link" href="/courses" style = {BORDER_STYLE}>Courses</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/" style = {BORDER_STYLE}>Current Status</a>
+                <a className="nav-link" href="/currentstatus" style = {BORDER_STYLE}>Current Status</a>
               </li>
             </ul>
           </div>

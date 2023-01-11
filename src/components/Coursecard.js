@@ -38,7 +38,13 @@ const CourseCard = (props) => {
         if (j % 2 === 0 && j !== 0) {
             hidden_portion = hidden_portion + "</div></div><div class='container'><div class='row mt-3'>"
         }
-        hidden_portion = hidden_portion + '<div class="col-sm" id="courses"><b>' + course_list[j] + '</b> <div> &emsp; Skill(s): ';
+        if (props['courses'][course_list[j]].length === 0){
+            hidden_portion = hidden_portion + '<div class="col-sm" id="courses"><b>' + course_list[j] + '</b> <div> &emsp;';
+        } else if (props['courses'][course_list[j]].length === 1){
+            hidden_portion = hidden_portion + '<div class="col-sm" id="courses"><b>' + course_list[j] + '</b> <div> &emsp; Skill: '
+        }
+        else { hidden_portion = hidden_portion + '<div class="col-sm" id="courses"><b>' + course_list[j] + '</b> <div> &emsp; Skills: ';}
+       
         for (var k = 0; k < props['courses'][course_list[j]].length; k++) {
             if (k !== props['courses'][course_list[j]].length - 1) {
                 hidden_portion = hidden_portion + props['courses'][course_list[j]][k] + ', '
@@ -81,6 +87,8 @@ const CourseCard = (props) => {
                 <div className="bg-light p-4 mb-3" style={{ 'borderRadius': 7 }}>
 
                     <div className="Container" dangerouslySetInnerHTML={{ __html: hidden_portion }}></div>
+                    <br></br>
+                    <div style={{'marginLeft': '6em','color': '#4a4443'}}> <b>and more....</b></div>
                 </div>
             </div>
         </div>

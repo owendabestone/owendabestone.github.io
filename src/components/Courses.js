@@ -13,7 +13,8 @@ const Courses = () => {
             'Machine Learning For Robotics': ['Robotics', 'Model-free Reinforcement Learning'],
             'Planning & Learning in Robotics': ['Search Algorithms', 'Model-based Reinforcement Learning'],
             'Deep Generative Models': ['Deep Learning', 'Pytorch', 'GAN'],
-            "Recommender System & Web Mining": ['Collaborative Filtering','Latent Factor Model']
+            "Recommender System & Web Mining": ['Collaborative Filtering','Latent Factor Model'],
+            "Human-AI Interaction" : ['NLTK',"spaCy", "AI ethics"]
         },
         'Physics': {
             'Relativity & Quantum Physics': ['Quantum Mechanics'],
@@ -33,12 +34,12 @@ const Courses = () => {
             'Developing Applications with SQL,Databases, and Django': ['SQL', "ORM", "Django"],
             'Developing Front-End Apps with React': ['React', 'Redux'],
             'Data Visualization and Communication with Tableau': ['Tableau', "Data Presentation"],
-            'Programming with JavaScript': ['^'],
-            'Intro to Web Dev w/ HTML, CSS, JavaScript': ['^'],
-            'Introduction to Cloud Computing':['^']
+            'Programming with JavaScript': [],
+            'Intro to Web Dev w/ HTML, CSS, JavaScript': [],
+            'Introduction to Cloud Computing':[]
         },
         'Humanities': { "Humanities (total of 24 units)": ['Critical Writing'] },
-        'HighSchool': { 'IB Business And Management': ['Marketing', "Operation Managemene"] }
+        'HighSchool': { 'IB Business And Management': ['Marketing', "Operation Managemment"] }
     };
 
     var cards;
@@ -46,13 +47,35 @@ const Courses = () => {
         return (<Coursecard name={area} courses={courses[area]} key={area}></Coursecard>)
     });
 
+    // var skills = ['MLE',"Hidden Markov Model", "Naive Bayes", "LSTM", "BOW","Bio-inspired Algorithm"]
+    var skills = [];
+    for (var area = 0; area < Object.keys(courses).length; area++){
+        const area_list = Object.keys(courses);
+        const courses_in_area = courses[area_list[area]];
+        const course_list = Object.keys(courses[area_list[area]]);
+        
+        for (var course = 0; course < course_list.length; course++){
+            
+            const course_name = course_list[Object.keys(course_list)[course]];
+            const skill_list = courses_in_area[course_name];
+            console.log(skill_list)
+            skills.push(...skill_list);
+        }
+    }
 
+    let skills_render = "<div class='container'><div class='row mt-3'>"
+    for (var j = 0; j < skills.length; j++) {
+        if (j % 4 === 0 && j !== 0) {
+            skills_render = skills_render + "</div></div><div class='container'><div class='row mt-3'>";
+        }
+        skills_render = skills_render + '<div class="col-sm" id="courses"><b>' + skills[j] + '</b></div>' ;}
 
+    console.log(skills_render)
     return (
         <div>
             <Navbar></Navbar>
             <BusCard></BusCard>
-            <h2 style={{ 'marginLeft': '7%' }}>Courses</h2>
+            <h2 style={{ 'marginLeft': '7%' }}>Courses Taken </h2>
             <br></br>
             {cards}
             {/* <Coursecard name ='MachineLearning' ></Coursecard>
@@ -60,7 +83,23 @@ const Courses = () => {
             <Coursecard name ='NeuralScience' ></Coursecard>
             <Coursecard name ='Coursera' ></Coursecard>
             <Coursecard name ='HighSchool' ></Coursecard> */}
+            <div> 
+                <h3 style={{ 'marginLeft': '7%' }}>Websites I Enjoyed Learning From </h3>
+                <ul style={{ 'marginLeft': '7%' }}>
+                    <li> <a href='https://stepik.org/course/579/syllabus'>Advanced Data Structures</a></li>
+                    <li> <a href='https://www.internetingishard.com/html-and-css/'>HTML & CSS Is Hard But It Doesn't Have To Be</a></li>
+                    <li> <a href='https://foundations-computational-linguistics.github.io/'>Foundamentals of Computational Linguistics</a></li>
+                    <li> <a href='http://robotics.stanford.edu/~birch/projective/projective.html'>An Introduction to Projective Geometry (for computer vision)</a></li>
+                </ul>
+            </div>
 
+            <div style={{width:'',marginLeft:'0%'}}>
+            <h3 style={{ 'marginLeft': '7%' }}>List of Skills Aquired:</h3>
+            <div className="Container" dangerouslySetInnerHTML={{ __html: skills_render }}></div>
+
+            </div>
+            <br></br>
+            <br></br>
         </div>
     );
 };

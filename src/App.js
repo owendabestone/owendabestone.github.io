@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Courses from './components/Courses';
 import { Route, Routes } from 'react-router-dom'
 import WebProjects from './components/WebProjects';
-
+import CurrentStatus from './components/CurrentStatus';
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/courses" element={<Courses/>}></Route>
           <Route exact path="/webprojects" element={<WebProjects/>}></Route>
+          <Route exact path="/currentstatus" element={<CurrentStatus/>}></Route>
         </Routes>
 
     </AppProvider>

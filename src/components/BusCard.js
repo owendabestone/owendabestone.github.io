@@ -18,6 +18,7 @@ const BusCard = (props) => {
                     <span className="text-muted">Current Address: 3961 N Tamarack Dr, Boise, Idaho, 83703</span>
                     <br></br>
                     <span className="text-muted">E-mail: chang.owen.zhang@gmail.com</span>
+                    <br></br>
                     <span className="text-muted">School E-mail: chz230@ucsd.edu</span>
                 </div>
             </div>
