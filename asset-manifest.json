@@ -1,30 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.28092453.css",
-    "main.js": "/static/js/main.94f713ad.js",
+    "main.css": "/static/css/main.562016ec.css",
+    "main.js": "/static/js/main.37a336e2.js",
     "static/js/787.bdde258d.chunk.js": "/static/js/787.bdde258d.chunk.js",
+    "static/media/robotics_gif.gif": "/static/media/robotics_gif.d6bcc31617b32538ee67.gif",
     "static/media/skiing.mp4": "/static/media/skiing.9d9b7fabe397eadbae16.mp4",
-    "static/media/homepicture.png": "/static/media/homepicture.546f946c067bf45f831c.png",
     "static/media/seeking for void.mp3": "/static/media/seeking for void.59ea5541b77f707192dd.mp3",
+    "static/media/homepicture.png": "/static/media/homepicture.cffab6e6da4137362d99.png",
     "static/media/skiing.JPG": "/static/media/skiing.caa5552e81dd7dc430f8.JPG",
     "static/media/cse_result.png": "/static/media/cse_result.9d361d25f6e40805a7a2.png",
     "static/media/django_ER diagram.png": "/static/media/django_ER diagram.df94e4991fa0c50e78ab.png",
     "static/media/django_homepage.png": "/static/media/django_homepage.1efd95af16f4f069b3d2.png",
     "static/media/cse_home.png": "/static/media/cse_home.9292b5c4c37edf5c798a.png",
+    "static/media/ebay_inandout.png": "/static/media/ebay_inandout.a44bbf4160da27667a0a.png",
+    "static/media/clothes_roc.png": "/static/media/clothes_roc.2945e3cfd3a4f9649258.png",
     "static/media/react_homepage.png": "/static/media/react_homepage.44e29fa3abcd3e224cda.png",
     "static/media/django_result.png": "/static/media/django_result.7d283818a4ba87de931e.png",
     "static/media/django_quiz.png": "/static/media/django_quiz.8c1f0a50a4182539c73c.png",
     "static/media/cse_search.png": "/static/media/cse_search.28894b42f9fa2cba1303.png",
+    "static/media/robotics_equation.png": "/static/media/robotics_equation.ab91b362823fbb2c8e75.png",
     "static/media/aimtrainer_result.png": "/static/media/aimtrainer_result.1782f71be0635b156bef.png",
+    "static/media/ebay_method_2.png": "/static/media/ebay_method_2.4432593db5e5f1f23838.png",
+    "static/media/ebay_result.png": "/static/media/ebay_result.af38e21b390aecf61470.png",
     "static/media/aimtrainer_overview.png": "/static/media/aimtrainer_overview.3b4f757ec990630ab2cf.png",
     "static/media/github-mark.zip": "/static/media/github-mark.91e36750449e131403f3.zip",
+    "static/media/ebay_method_1.png": "/static/media/ebay_method_1.12ab302ecb2caba187fd.png",
+    "static/media/clothes_lfm.png": "/static/media/clothes_lfm.944d90931729c157210f.png",
+    "static/media/clothes_model.png": "/static/media/clothes_model.9ecc7bf601367943e33a.png",
     "index.html": "/index.html",
-    "main.28092453.css.map": "/static/css/main.28092453.css.map",
-    "main.94f713ad.js.map": "/static/js/main.94f713ad.js.map",
+    "main.562016ec.css.map": "/static/css/main.562016ec.css.map",
+    "main.37a336e2.js.map": "/static/js/main.37a336e2.js.map",
     "787.bdde258d.chunk.js.map": "/static/js/787.bdde258d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28092453.css",
-    "static/js/main.94f713ad.js"
+    "static/css/main.562016ec.css",
+    "static/js/main.37a336e2.js"
   ]
 }
