@@ -16,7 +16,9 @@ const Home = () => {
                         <div class="info">
                             <h4 class="title"><b>Fall 2022</b></h4>
                             <p> During my internship, I saw the inner workings of applying ML to an web application.
-                                I decided to take online courses on full-stack development so that one day I could build an application backed by ML.</p>
+                                I decided to take online courses on full-stack development 
+                                so that one day I could deploy an application backed by ML.</p>
+                                <p>Participated in <a href = 'https://eval.ai/web/challenges/challenge-page/1733/overview'>eBay 2022 university Machine Learning Competition</a>.</p>
                         </div>
                     </div>
 
@@ -26,11 +28,13 @@ const Home = () => {
                             <h4 class="title"><b>Summer 2022</b></h4>
                             <p> I reached out to Professor Anjum and received an intern 
                                 position at his company <a href='https://www.precisepk.com/'> PrecisePK</a>. 
-                                I attended daily stand-ups and worked on a research project for their serum level prediction model.
+                                I attended daily stand-ups and worked on a research project 
+                                for their serum level prediction model.
                                 <br></br>
                                 <br></br>
                                 Anjum was teaching machine learing classes at that time. 
-                                I also helped him with writing visualiation code for his assignments and designed problems for homework and exams.  </p>
+                                I also helped him with writing visualization code 
+                                for his assignments and designed problems for homework and exams.  </p>
                         </div>
                     </div>
                     <div class="card">
@@ -40,7 +44,7 @@ const Home = () => {
                                 <br></br>
                                 <br></br>
                                 I spent almost every second of my life going to office hours and 
-                                attending additional lectures </p>
+                                attending additional lectures on computer architecture (something I did not learn from undergrad). </p>
                         </div>
                     </div>
 
@@ -81,7 +85,7 @@ const Home = () => {
                         <div class="info">
                             <h4 class="title"><b> Fall 2019</b></h4>
                             <p>I changed my major to Cog Sci ML and first started learning how to program. 
-                               I was introduced to <a href = 'https://www.shanellis.com/about/'>Professor Shannon</a>, who mentored me for my independent project. </p>
+                               I was introduced to <a href = 'https://www.shanellis.com/about/'>Professor Shannon</a>, who was my mentor for my independent project. </p>
                         </div>
                     </div>
                     <div class="card">

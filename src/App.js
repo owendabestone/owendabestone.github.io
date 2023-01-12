@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 import WebProjects from './components/WebProjects';
 import CurrentStatus from './components/CurrentStatus';
 import Hobbies from './components/Hobbies';
+import MlProjects from './components/MlProjects';
 function App() {
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/webprojects" element={<WebProjects/>}></Route>
           <Route exact path="/currentstatus" element={<CurrentStatus/>}></Route>
           <Route exact path="/hobbies" element={<Hobbies/>}></Route>
+          <Route exact path='/mlprojects' element={<MlProjects></MlProjects>}></Route>
         </Routes>
 
     </AppProvider>

@@ -40,7 +40,8 @@ const WebProjects = () => {
                         </div>
                         <br></br>
                         <h4 style = {{'textAlign':'left','marginLeft':'3%','paddingRight':'30%'}}>
-                            The website is able to save users' enrollment info and exam scores using an SQL database and display the results using Django View.
+                            The website is able to save users' enrollment info and exam scores using 
+                            an SQL database and display the results using Django View.
                         </h4>
                         <br></br>
             </div>
@@ -61,7 +62,8 @@ const WebProjects = () => {
                         <br></br>
                         <h4 style = {{'textAlign':'left','marginLeft':'3%','paddingRight':'30%'}}>
                         This is one of the first websites I've built after learning JavaScript. 
-                        To play this game, you have to pop the red dots by clicking them as fast as they can in one minute.
+                        To play this game, you have to pop the red dots by clicking them as fast as 
+                        you can in one minute.
 
                         </h4>
                         <br></br>
@@ -81,7 +83,7 @@ const WebProjects = () => {
 
                         <br></br>
                         <h4 style = {{'textAlign':'left','marginLeft':'3%','paddingRight':'30%'}}>
-                        This website keeps track of the budget company allocated to each department.
+                        This website keeps track of the budget the company allocated to each department.
                          I implemented the budget input, increase/decrease by 10 options,
                           and the currency selection.
                         </h4>
@@ -104,11 +106,12 @@ const WebProjects = () => {
                         <br></br>
                         <h4 style = {{'textAlign':'left','marginLeft':'3%','paddingRight':'30%'}}>
                         This was a project for <a href = 'https://kristenvaccaro.github.io/human-ai/'> Human-AI Interation</a> class. 
-                        I led a team of five designed a website prototype where it provides business owner feedback base on Yelp review.
+                        I led a team of four and designed a website prototype. 
+                        The website provides business owner feedbacks base on Yelp reviews.
                         <br></br>
                         I also worked on the backend prototype. 
-                        The backend is to web scrape Yelp reviews and find the most frequent words catagorized by speech tags and sentiment of the review.
-                        The packages I used include : NLTK, spaCy, and Pandas. 
+                        The backend is to web scrape Yelp reviews and find the most frequent words catagorized by speech tags and sentiment of the reviews.
+                        The packages I learned to used include : NLTK, spaCy, and Pandas. 
 
                         </h4>
                         <br></br>

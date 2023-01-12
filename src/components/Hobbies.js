@@ -8,8 +8,8 @@ const Hobbies = () => {
             <BusCard></BusCard>
             <h2 style={{ 'marginLeft': '7%' }}>Hobbies </h2>
             <div className='container' style={{ 'marginLeft': '1%' }}>
-                <div className='row mt-2'>
-                    <div className='col-sm' style={{ marginRight: '0em', width: '30%' }}>
+                <div className='row mt-3'>
+                    <div className='col-sm' style={{ marginRight: '0em'}}>
                         <div class="card md-1" style={{ width: '100%' }}>
                             <div class="card-body">
                                 <div> <h3> <b>SKIING</b></h3></div>
@@ -35,7 +35,7 @@ const Hobbies = () => {
                         </div>
                     </div>
 
-                    <div className='col-sm' style={{ marginLeft: '0em', width: '30%' }}>
+                    <div className='col-sm' style={{ marginLeft: '0em'}}>
                         <div class="card md-1" style={{ width: '100%' }}>
                             <div class="card-body">
                                 <div> <h3> <b>Motor Sport</b></h3></div>
@@ -58,7 +58,8 @@ const Hobbies = () => {
                         <div class="card md-1" style={{ width: '100%' }}>
                             <div class="card-body">
                                 <div> <h3> <b>Music</b></h3></div>
-                                <span> This is about as good as I can compose.</span>
+                                <div> This is about as good as I can compose.</div>
+                                <br></br>
                                 <div><iframe width="100%" height="220" src="https://www.youtube.com/embed/AxWG8voIY7s" title="Orange Noise - ambient music." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                                 <br></br>
                                 <div>Unreleased sample</div>

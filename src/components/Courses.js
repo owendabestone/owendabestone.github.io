@@ -7,6 +7,7 @@ const Courses = () => {
         'MachineLearning': {
             'Probabilistic Learning': ['MLE', "Hidden Markov Model", 'Naive Bayes'],
             'Statistical Natural Langugage Processing': ['LSTM', 'BOW'],
+            'Computer Vision I' : ['Image Formation','Edge/Corner Detection', 'Recognition',"CNN"],
             'Seminar on Special Topic: Genetic Algorithm': ['Bio-inspired Algorithms', "Game Theory"],
             'Computational Linguistics': ['Clojure'],
             'Convex Optimization Algorithms': ['CVXPY'],
