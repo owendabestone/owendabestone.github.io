@@ -5,7 +5,7 @@ const MlProjects = () => {
     return (<div>
         <Navbar></Navbar>
         <BusCard></BusCard>
-
+        <h2 style={{ 'marginLeft': '7%' }}>Machine Learning Projects </h2>
         {/* Project one */}
         <div class='container'>
             <table class="table mr-5" style={{ marginRight: '1em' }}>
@@ -154,8 +154,6 @@ const MlProjects = () => {
                             <div><img src={require("./clothes_roc.png")} width='60%' height='60%' alt='roc' ></img></div>
                             <div> <a href='https://github.com/owendabestone/CSE258-final-project'>Code </a></div>
                         </td>
-
-
                     </tr>
                 </tbody>
             </table>
@@ -202,7 +200,7 @@ const MlProjects = () => {
                     <tr>
                         <th scope="row"></th>
                         <td><b>My Role </b></td>
-                        <td> Applying lesson materials to code and perform optimization and hyperparameter tuning. And also writing the paper.
+                        <td> Applied lesson materials to code and performed optimization and hyperparameter tuning. And also I wrote the paper.
                         </td>
                     </tr>
                     <tr>
@@ -222,6 +220,90 @@ const MlProjects = () => {
                         <td><b>Results: </b></td>
                         <td>
                             <div><img src={require("./robotics_gif.gif")} width='60%' height='60%' alt='robot' ></img></div>
+                        </td>
+
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <br></br>
+        {/* Project three */}
+        <div class='container'>
+            <table class="table mr-5" style={{ marginRight: '1em' }}>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Winter 2022</th>
+                        <th></th>
+                        <th scope="row"> <a href='https://github.com/owendabestone/Academic-Papers/blob/main/Generate%20Synthetic%20Data%20To%20Train%20Image%20Captioning%20Models%20-%20ECE285.pdf'>
+                            <b>Generate Synthetic Data To Train image Captioning Models</b></a>
+                            
+                            </th>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><b>Area:</b></td>
+                        <td>Computer Vision, Convolutional Neural Network, NLP, Generative Adversarial Networks</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><b>Dataset:</b></td>
+                        <td>Flickr30k , MSCOCO</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><b>Task: </b></td>
+                        <td> Caption a given image accurately. 
+                        <div><img src={require("./caption_task.png")} width='70%' height='60%' alt='equation' ></img></div> 
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><b>My Role </b></td>
+                        <td> 
+                            <ul>
+                                <li>Built and tested the image captioning model.</li>
+                                <li>Trained and tested the Conditional-GAN. </li>
+                                <li>Background research. </li>
+                            </ul> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><b>Methods: </b></td>
+                        <td><div> We proposed to solve the problem by turning it into a four-level optimization problem.  </div>
+                            <div><img src={require("./caption_method.png")} width='80%' height='60%' alt='equation' ></img></div>
+
+                            <ul>
+                                <li>Stage 1: Generate syntheic captions using pretrained GPT2</li> 
+                                <li>Stage 2: Generate Synthetic imgage using conditional-GAN. 
+                                    Due to low-res output, we also used Attention-GAN for this stage.</li>
+                                <li>Stage 3: Training the image caption model with the synthetic data pairs.</li>
+                                <li>Stage 4: Optimize stage 1-3 using neural architecture search. </li>
+                                <div><img src={require("./caption_cgan.png")} width='70%' height='60%' alt='equation' ></img></div> 
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"></th>
+                        <td><b>Results: </b></td>
+                        <td>
+                            <div>The syntheic data improved the performance; yet, they lack in variability. 
+                                Since stage 1-3 require heavy computational power, stage 4 was not applied.</div>
                         </td>
 
 
