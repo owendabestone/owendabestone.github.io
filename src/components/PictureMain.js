@@ -10,6 +10,8 @@ const PictureHome = (props) => {
         'marginLeft': '1em',
         'marginRight': '0'}}> The last driving shift when I was working at UC San Diego Transportation.</figcaption>
     </figure>
+
+
     </div>
     )
 

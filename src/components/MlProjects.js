@@ -303,7 +303,7 @@ const MlProjects = () => {
                         <td><b>Results: </b></td>
                         <td>
                             <div>The syntheic data improved the performance; yet, they lack in variability. 
-                                Since stage 1-3 require heavy computational power, stage 4 was not applied.</div>
+                                Since stage 1-3 required heavy computational power, stage 4 was not applied.</div>
                         </td>
 
 

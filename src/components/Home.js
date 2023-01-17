@@ -11,7 +11,6 @@ const Home = () => {
 
             <div class="timeline">
                 <div class="outer">
-
                     <div class="card">
                         <div class="info">
                             <h4 class="title"><b>Fall 2022</b></h4>
@@ -108,6 +107,22 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div classname = "container" style={{'textAlign':'center'}}>
+            <figure className="figure" style={{
+                'marginTop': '2em',
+                'marginRight': 0, width: '70%'
+            }}>
+                <img src={require("./geisal.JPG")} className="figure-img img-fluid rounded" alt="Profile"
+                    style={{ width: '75%', height: '40%' }} />
+                <figcaption className="figure-caption" style={{
+                    width: '60%', height: '26%', display: 'block',
+                    'marginLeft': '1em',
+                    'marginRight': '0'
+                }}>The Geisal library at UCSD is my favorite piece of architecture.</figcaption>
+            </figure>
+            </div>
+            <br></br>
+            <br></br>
         </div>
     )
 }

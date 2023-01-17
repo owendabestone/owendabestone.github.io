@@ -12,7 +12,7 @@ const Courses = () => {
             'Computational Linguistics': ['Clojure'],
             'Convex Optimization Algorithms': ['CVXPY'],
             'Machine Learning For Robotics': ['Robotics', 'Model-free Reinforcement Learning'],
-            'Planning & Learning in Robotics': ['Search Algorithms', 'Model-based Reinforcement Learning'],
+            'Planning & Learning in Robotics': ['Search Algorithms', 'Model-based Reinforcement Learning', "HMM"],
             'Deep Generative Models': ['Deep Learning', 'Pytorch', 'GAN'],
             "Recommender System & Web Mining": ['Collaborative Filtering','Latent Factor Model'],
             "Human-AI Interaction" : ['NLTK',"spaCy", "AI ethics"]
@@ -91,6 +91,7 @@ const Courses = () => {
                     <li> <a href='https://www.internetingishard.com/html-and-css/'>HTML & CSS Is Hard But It Doesn't Have To Be</a></li>
                     <li> <a href='https://foundations-computational-linguistics.github.io/'>Foundamentals of Computational Linguistics</a></li>
                     <li> <a href='http://robotics.stanford.edu/~birch/projective/projective.html'>An Introduction to Projective Geometry (for computer vision)</a></li>
+                    <li> <a href = 'https://ocw.mit.edu/courses/6-096-introduction-to-c-january-iap-2011/'> Introduction To C++ from MIT Open Courseware</a></li>
                 </ul>
             </div>
 
