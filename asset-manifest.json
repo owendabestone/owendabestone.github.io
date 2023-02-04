@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.562016ec.css",
-    "main.js": "/static/js/main.5a52ff74.js",
+    "main.js": "/static/js/main.0febb84f.js",
     "static/js/787.bdde258d.chunk.js": "/static/js/787.bdde258d.chunk.js",
     "static/media/robotics_gif.gif": "/static/media/robotics_gif.d6bcc31617b32538ee67.gif",
-    "static/media/geisal.JPG": "/static/media/geisal.519542a8f977b3369805.JPG",
     "static/media/skiing.mp4": "/static/media/skiing.9d9b7fabe397eadbae16.mp4",
     "static/media/seeking for void.mp3": "/static/media/seeking for void.59ea5541b77f707192dd.mp3",
     "static/media/caption_task.png": "/static/media/caption_task.cefb7c13ac7ea9af1d32.png",
+    "static/media/GA_robot.mp4": "/static/media/GA_robot.35f5ab911a3f0e91d3f1.mp4",
     "static/media/homepicture.png": "/static/media/homepicture.cffab6e6da4137362d99.png",
     "static/media/skiing.JPG": "/static/media/skiing.caa5552e81dd7dc430f8.JPG",
     "static/media/cse_result.png": "/static/media/cse_result.9d361d25f6e40805a7a2.png",
@@ -28,16 +28,15 @@
     "static/media/ebay_result.png": "/static/media/ebay_result.af38e21b390aecf61470.png",
     "static/media/aimtrainer_overview.png": "/static/media/aimtrainer_overview.3b4f757ec990630ab2cf.png",
     "static/media/clothes_lfm.png": "/static/media/clothes_lfm.77025e9ba6918f6c1b32.png",
-    "static/media/github-mark.zip": "/static/media/github-mark.91e36750449e131403f3.zip",
     "static/media/ebay_method_1.png": "/static/media/ebay_method_1.12ab302ecb2caba187fd.png",
     "static/media/clothes_model.png": "/static/media/clothes_model.9ecc7bf601367943e33a.png",
     "index.html": "/index.html",
     "main.562016ec.css.map": "/static/css/main.562016ec.css.map",
-    "main.5a52ff74.js.map": "/static/js/main.5a52ff74.js.map",
+    "main.0febb84f.js.map": "/static/js/main.0febb84f.js.map",
     "787.bdde258d.chunk.js.map": "/static/js/787.bdde258d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.562016ec.css",
-    "static/js/main.5a52ff74.js"
+    "static/js/main.0febb84f.js"
   ]
 }
