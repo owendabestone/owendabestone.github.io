@@ -9,6 +9,7 @@ import WebProjects from './components/WebProjects';
 import CurrentStatus from './components/CurrentStatus';
 import Hobbies from './components/Hobbies';
 import MlProjects from './components/MlProjects';
+import WorkProjects from './components/WorkProjects'
 function App() {
 
 
@@ -27,9 +28,11 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/courses" element={<Courses/>}></Route>
           <Route exact path="/webprojects" element={<WebProjects/>}></Route>
+          
           <Route exact path="/currentstatus" element={<CurrentStatus/>}></Route>
           <Route exact path="/hobbies" element={<Hobbies/>}></Route>
           <Route exact path='/mlprojects' element={<MlProjects></MlProjects>}></Route>
+          <Route exact path="/workprojects" element={<WorkProjects></WorkProjects>}></Route>
         </Routes>
 
     </AppProvider>

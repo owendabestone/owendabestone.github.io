@@ -47,7 +47,7 @@ const WebProjects = () => {
             </div>
 
             <div className="w3-container  w3-dark-grey" style={{ 'marginLeft': '3.1%', 'marginRight': '2%','marginTop':'2%', 'background': 'red', 'borderRadius': 5}}>
-                <h3 style={{ 'marginLeft': '3%',}}><a style={{color:'white'}} href = 'https://main.d36fn3fjifygvl.amplifyapp.com/'>Aim Trainer For First-Person-Shooter Gamers (Live on AWS) </a> </h3>
+                <h3 style={{ 'marginLeft': '3%',}}><a style={{color:'white'}} href = 'https://main.d36fn3fjifygvl.amplifyapp.com/'>Aim Trainer For First-Person-Shooter Gamers (No longer live on AWS) </a> </h3>
                         <div className="w3-content w3-display-container" style={{ 'width': '80%', 'height': '30%','marginTop':'2%','marginLeft':'3%'}}>
                             <figure className="figure">
                             <img className="mySlides" src={require("./" + AimTrainer_pics[AimTrainer])} style={{ width: '100%' }} alt='django homepage'></img>

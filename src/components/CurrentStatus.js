@@ -9,9 +9,8 @@ const CurrentStatus = () => {
             <div class="card m-5" style={{ width: '70%' }}>
                 <div class="card-body">
                     <ul>
-                        <li>Learning AWS and getting the <i>AWS Certified Cloud Practitioner</i> certificate.</li>
-                        <li>Enrolled in <i>Developing Back-End Apps with Node.js and Express</i> on Coursera. </li>
-                        <li>Solving LeetCode SQL Database problems.</li>
+                        <li>Keeping myself updated on tech/AI news</li>
+
                         {/* <li><li/> */}
                     </ul>
                 </div>

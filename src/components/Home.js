@@ -11,6 +11,12 @@ const Home = () => {
 
             <div class="timeline">
                 <div class="outer">
+                <div class="card">
+                        <div class="info">
+                            <h4 class="title"><b>Winter 2023</b></h4>
+                            <p> Started working for Boise Cascade and contining to make business improvements by providing software tools. </p>
+                        </div>
+                    </div>
                     <div class="card">
                         <div class="info">
                             <h4 class="title"><b>Fall 2022</b></h4>
