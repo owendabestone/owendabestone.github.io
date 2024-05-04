@@ -13,6 +13,14 @@ const Home = () => {
                 <div class="outer">
                 <div class="card">
                         <div class="info">
+                            <h4 class="title"><b>Spring 2024</b></h4>
+                            <p> Designing and coding a Github Page E-commerce website for fun. </p>
+                            <p>Website live at here: <a href= 'https://nina-eld.github.io/nina_eld.github.io/'> LINK</a></p>
+                            <p>Github Repo: <a href= 'https://github.com/Nina-Eld/nina_eld.github.io/tree/master'> LINK</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
                             <h4 class="title"><b>Winter 2023</b></h4>
                             <p> Started working for Boise Cascade and contining to make business improvements by providing software tools. </p>
                         </div>
