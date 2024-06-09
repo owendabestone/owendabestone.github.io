@@ -61,9 +61,9 @@ const WorkProjects = () => {
 
                 <br></br>
                 <h4 style={{ 'textAlign': 'left', 'marginLeft': '3%', 'paddingRight': '30%' }}>
-                    I designed the built a search engine for internal help documents.
+                    I designed and built a search engine for internal help documents.
                     Using the power of Python and Django library, the search engine uses NLP techniques to return search results semantically.
-                    Users can submit and like hlep documents.
+                    Users can submit and like help documents.
 
                 </h4>
                 <br></br>
